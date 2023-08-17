@@ -10,7 +10,7 @@ namespace CalcularIC
         
             private void btnCalcular_Click(object sender, EventArgs e)
             {
-                // Obtener el monto inicial y el porcentaje desde los TextBox
+                // Obtener el monto inicial y el porcentaje % en los texbox 
                 double montoInicial = double.Parse(txtMontoInicial.Text);
                 double porcentaje = double.Parse(txtPorcentaje.Text);
 
